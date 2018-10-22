@@ -203,7 +203,7 @@ header{
 /* body全体（主に背景について） */
 body{
   background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.8), rgba(215, 65, 65, 0.8)),
-  url(https://cdn.pixabay.com/photo/2016/02/07/21/11/computer-1185637_1280.jpg);
+  url(computer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
