@@ -48,7 +48,7 @@ $(function() {
 
 // 上スクロールでto-top表示
   var startPos = 0,winScrollTop = 0;
-  $(window).on('scroll',function(){
+  $(window).stop().on('scroll',function(){
     winScrollTop = $(this).scrollTop();
     if (winScrollTop <= startPos) {
         if(winScrollTop >= 100){
